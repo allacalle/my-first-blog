@@ -1,0 +1,63 @@
+/* Estilo para el encabezado de la página */
+.page-header {
+    background-color: #F2D7D5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.page-header h1, .page-header h1 a {
+    color: #7D9A93;
+    font-size: 36pt;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* Estilo para el contenido */
+.content {
+    margin: 40px 0 0 40px;
+}
+
+/* Estilos para títulos */
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+    color: #7D9A93;
+}
+
+/* Estilo para la fecha */
+.date {
+    color: #A9A9A9;
+}
+
+/* Estilo para elementos flotantes */
+.save {
+    float: right;
+    color: #7D9A93;
+}
+
+/* Estilo para el menú superior */
+.top-menu {
+    color: #7D9A93;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.top-menu:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las entradas del blog */
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a {
+    color: #474747;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    text-decoration: underline;
+}
